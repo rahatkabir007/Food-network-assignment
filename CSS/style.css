@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.heading {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+}
+
+.logo-area {
+    width: 20%;
+    padding-left: 50px;
+}
+
+.icons {
+    width: 90%;
+    padding-left: 1000px;
+    padding-top: 28px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.half-area {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 10%;
+    text-align: left;
+
+}
+
+.half-area img {
+    width: 80%;
+    margin-right: 10%;
+}
+
+#color1 {
+    color: rgb(255, 115, 0);
+}
+
+#color2 {
+    color: rgb(255, 115, 0);
+    ;
+}
+
+.link-button {
+    background-image: linear-gradient(white, rgb(34, 34, 110));
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+}
+
+.half-areaa2 {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.half-area2 {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.half-areaa2 img {
+    width: 65%;
+    margin-right: 10%;
+}
+
+.about {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.half-area2 {
+    margin-top: 100px;
+    text-align: left;
+}
+
+.recipie-intro {
+    text-align: center;
+
+
+}
+
+
+.recipe {
+    display: flex;
+
+}
+
+.recipe .food-1 #food-img1 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.recipe .food-1 #food-details1 {
+    width: 100%;
+    text-align: left;
+
+}
+
+.recipe .food-1 #food-details1 {
+    display: inline-block;
+}
+
+.recipe .food-1 {
+    width: 400px;
+    height: 490px;
+    margin-left: 70px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px gray;
+
+}
+
+.recipe .food-2 #food-img2 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+
+}
+
+.recipe .food-2 #food-details2 {
+    width: 100%;
+    text-align: left;
+
+
+}
+
+.recipe .food-2 #food-details2 {
+    display: inline-block;
+}
+
+.recipe .food-2 {
+    width: 400px;
+    height: 490px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.recipe .food-3 #food-img3 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.recipe .food-3 #food-details3 {
+    width: 100%;
+    text-align: left;
+
+}
+
+.recipe .food-3 #food-details3 {
+    display: inline-block;
+}
+
+.recipe .food-3 {
+    width: 400px;
+    height: 490px;
+    margin-right: 70px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px gray;
+
+}
+
+#restaurant-rec {
+    text-align: center;
+    margin-top: 80px;
+
+    font-size: 40px;
+}
+
+.restaurant {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.milano {
+    width: 400px;
+    height: 400px;
+    text-align: left;
+    margin-left: 40px;
+    padding: 5px 5px 5px 20px;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-image-slice: 9;
+}
+
+.ambrosia {
+    width: 400px;
+    height: 400px;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 40px;
+    padding: 5px 5px 5px 20px;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-image-slice: 9;
+}
+
+.meal-city {
+    width: 400px;
+    height: 400px;
+    text-align: left;
+    margin-left: 40px;
+    padding: 5px 5px 5px 20px;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-image-slice: 9;
+}
+
+.form {
+
+    background-image: url(Images/food/contact-bg.jpg);
+    height: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#contactform {
+    margin-left: 600px;
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+    padding: 1px;
+
+}
+
+
+.form form label {
+
+    display: block;
+    padding: 8px;
+
+
+}
+
+#contactme {
+    font-size: 20px;
+    background-color: rgb(230, 210, 210);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(Images/shapes/footer-bg.jpg);
+    height: 190px;
+    margin: -15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+footer,
+h1 h2 p {
+    color: white;
+    padding-top: 30px;
+}
